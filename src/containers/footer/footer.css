@@ -1,0 +1,119 @@
+.gpt3__footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--color-footer);
+}
+
+.gpt3__footer-heading {
+    margin-bottom: 3rem;
+}
+
+.gpt3__footer-heading h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    text-align: center;
+    letter-spacing: -0.04em;
+}
+
+.gpt3__footer-btn {
+    margin-bottom: 10rem;
+}
+
+.gpt3__footer-btn button {
+    background: #031B34;
+    border: 1px solid #fff;
+    padding: 1rem 2rem;
+
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.gpt3__footer-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 5rem;
+}
+
+.gpt3__footer-links_logo {
+    padding-right: 1rem;
+    margin-bottom: 5rem;
+}
+
+.gpt3__footer-links_logo img {
+    margin-bottom: 1rem;
+    width: 118px;
+    height: 38px;
+}
+
+.gpt3__footer-links_logo p {
+    font-family: 'Gilroy-Medium';
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.gpt3__footer-links_div {
+    width: 250px;
+}
+
+.gpt3__footer-links_div h4 {
+    font-family: 'Gilroy-Bold';
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+}
+
+.gpt3__footer-links_div p {
+    font-family: 'Gilroy-Medium';
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    margin: 0.5rem 0;
+    cursor: pointer;
+}
+
+.gpt3__footer-copyright {
+    font-family: 'Gilroy-Medium';
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 850px) {
+    .gpt3__footer-heading h1 {
+        font-size: 44px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .gpt3__footer-heading h1 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    .gpt3__footer-links div {
+        margin: 1rem 0;
+    }
+
+    .gpt3__footer-heading p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .gpt3__footer-heading h1 {
+        font-size: 27px;
+        line-height: 38px;
+    }
+}
